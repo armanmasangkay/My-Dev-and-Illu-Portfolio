@@ -108,12 +108,12 @@ function App() {
         </section>
         <footer className='text-center text-slate-500 flex flex-col items-center justify-center mt-10'>
             <h1 className='mt-10 font-display text-2xl'>That's it for now!</h1>
-            <p>If you like my work, send me an email</p>
-            <button className='text-slate-100 flex items-center justify-center bg-teal-500 p-3 rounded-md text-slate-200 mt-4 w-40'>
+            <p className='mt-4 text-sm'>If you like my work,</p>
+            <button className='text-slate-100 flex items-center justify-center bg-teal-500 p-2 rounded-md text-slate-200 mt-1 text-sm w-40'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
               </svg>
-              <span className='ml-2 font-bold '>  Email Me!</span>
+              <span className='ml-2 font-bold '>  Email me!</span>
             </button>
         </footer>
     </div>
