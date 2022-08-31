@@ -14,7 +14,7 @@ function App() {
     <>
     <div className="h-screen bg-computer bg-cover bg-blend-overlay bg-slate-900/90 px-10 py-10 flex flex-col justify-center">
         <div className='flex flex-col md:flex-row items-center'>
-          <div className='flex flex-col lg:w-1/2 w-full text-center md:text-left mt-4'>
+          <div className='flex flex-col md:w-[60%] lg:w-[60%] w-full text-center md:text-left mt-4'>
             <h1 className='text-3xl font-display text-slate-300'>Hey I'm,</h1>
             <h1 className='text-5xl font-display text-slate-200'>Arman</h1>
             <p className='text-slate-400 my-3'>I'm a Web developer and an Illustrator that lives in the Philippines. Thank you for visiting my portfolio. You can scroll down to browse through my work. Enjoy!</p>
@@ -25,8 +25,8 @@ function App() {
               <span className='ml-2 font-bold '>  Email Me!</span>
             </button>
           </div>
-          <div className='flex justify-center w-1/2 order-first md:order-none'>
-            <img src="images/dev.webp" alt="developer" className='rounded-full w-[20rem] grow-0'></img>
+          <div className='flex justify-center w-1/2 lg:w-[40%] order-first md:order-none'>
+            <img src="images/dev.webp" alt="developer" className='rounded-full w-[30rem] md:w-[15rem] grow-0'></img>
           </div>
         </div>
     </div>
