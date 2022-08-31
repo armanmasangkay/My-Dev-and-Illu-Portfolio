@@ -1,6 +1,6 @@
 export default function Job(props) {
     return (
-        <div className="w-[31%]  border rounded-md p-1 bg-slate-300 m-2">
+        <div className="w-[100%] md:w-[47%] lg:w-[31%]  border rounded-md p-1 bg-slate-300 m-2">
             <img src={props.image} alt="job" />
             <div>
                 <h1 className="text-slate-800 font-bold text-xl px-4 py-2">{props.title ?? 'Undefined'}</h1>
