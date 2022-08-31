@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className="bg-computer bg-cover bg-blend-overlay bg-slate-900/90 px-10 py-10 flex flex-col justify-center">
+    <div className="h-screen bg-computer bg-cover bg-blend-overlay bg-slate-900/90 px-10 py-10 flex flex-col justify-center">
         <div className='flex flex-col md:flex-row items-center'>
           <div className='flex flex-col lg:w-1/2 w-full text-center md:text-left mt-4'>
             <h1 className='text-3xl font-display text-slate-300'>Hey I'm,</h1>
